@@ -23,10 +23,6 @@ export let getComments = async (): Promise<IComment[]> => {
     return getData.data
 }
 
-export let getCommentsByPosts = async (id: string) => {
-    let response = await axiosInstance.get<IComment[]>('comments?postId=' + id)
-    return response.data
-}
 
 
 
