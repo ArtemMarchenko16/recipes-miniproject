@@ -1,0 +1,32 @@
+body{
+    background-color: #FAF3E0;
+
+}
+
+.positionOfElements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.styleImage {
+    height: 150px;
+    width: 200px;
+}
+
+.zoneForBreakfast {
+    background-color: #e6dfcb;
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+}
+
+.fontStyleLink {
+    text-decoration: none;
+    color: chocolate;
+    font-size: 25px;
+}

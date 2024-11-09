@@ -1,0 +1,31 @@
+.item {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 100px;
+    color: #2C3E50;
+    font-family: "Montserrat", sans-serif;
+}
+
+.item img{
+    margin-left: 100px;
+    border: 2px solid #2C3E50;
+    border-radius: 10%;
+}
+
+.itemInstruction {
+    width: 700px;
+    margin: 20px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.bgForItems {
+    background-color: white;
+
+}
+
+.bgForItems h1 {
+    display: flex;
+    justify-content: center;
+}

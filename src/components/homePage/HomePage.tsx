@@ -3,8 +3,7 @@ import React from 'react';
 const HomePage = () => {
     return (
         <div>
-            Redux killed me :)
-            home page!
+            Home
         </div>
     );
 };

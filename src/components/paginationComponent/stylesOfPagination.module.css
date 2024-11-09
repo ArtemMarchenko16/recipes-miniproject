@@ -1,0 +1,30 @@
+.styleOfButton {
+    background-color: #ddaf83;
+    border-radius: 50px;
+    border-width: 0;
+    box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    height: 40px;
+    padding: 0 25px;
+    transition: all 200ms;
+    margin: 10px;
+}
+
+.styleOfButton:hover{
+    background-color: #d0bd9c;
+    transform: scale(1.05);
+}
+
+.styleForSpan {
+    font-size: 20px;
+    color: #926331;
+}
+
+.positionOfButtons {
+    display: flex;
+    justify-content: center;
+}
